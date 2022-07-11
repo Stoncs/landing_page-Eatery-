@@ -1,0 +1,67 @@
+@import "variables.scss";
+// общие классы
+
+.btn {
+	font-family: $font-family-dm;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1em;
+	color: $color-primary-100;
+	border: 1px solid $color-primary-100;
+	padding: 14px 25px;
+
+	&_big {
+		font-weight: 700;
+		padding: 20px 34px;
+		text-transform: uppercase;
+	}
+
+	&_green {
+		color: $color-tertiary-100;
+		background-color: $color-primary-100;
+	}
+}
+
+.title-h1 {
+	font-family: $font-family-jakarta;
+	font-weight: 700;
+	font-size: 62px;
+	line-height: 70px;
+	letter-spacing: 2%;
+
+	&_green {
+		color: $color-primary-100;
+	}
+}
+.text {
+	font-family: $font-family-dm;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 28px;
+	color: $color-black-300;
+
+	&_grey {
+		color: $color-black-400;
+	}
+}
+
+.subtitle-h3 {
+	font-family: $font-family-jakarta;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: $color-primary-100
+}
+.title-h2 {
+	font-family: $font-family-jakarta;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 64px;
+	letter-spacing: 0.02em;
+	color: $color-primary-100;
+
+	&_white {
+		color: $color-white-pure;
+
+	}
+}
